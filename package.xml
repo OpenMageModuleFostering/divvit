@@ -1,36 +1,31 @@
 <?xml version="1.0"?>
 <package>
     <name>divvit</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
-    <license>GPL</license>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Proactive eCommerce Analytics!&#xD;
+    <summary>Divvit presents insights in beautiful dashboards, KPIs and recommendations to boost your shop's performance.</summary>
+    <description>&lt;p&gt;Divvit provides advanced tracking and analytics functionality designed for eCommerce merchants. The basic analytics version is &lt;strong&gt;free to use forever, while more advanced modules will be charged for on a monthly basis&lt;/strong&gt; and will help you gain valuable insights into your business to improve your performance.&lt;/p&gt;&#xD;
 &#xD;
-Divvit presents insights in beautifully designed dashboards, reveals KPI performance related to market standards and give automatic recommendations for optimizations.</summary>
-    <description>EASY TO USE | MADE FOR ECOMMERCE | MOBILE READY | INDIVIDUAL SUPPORT&#xD;
+&lt;p&gt;Divvit's interface is designed specifically for the needs of eCommerce merchants and will be helpful for any type of shop, small or large in any category. You will gain insights in the following four areas:&lt;/p&gt;&#xD;
 &#xD;
-If everyone does what he or she does best, we all benefit. So let us do the data digging and let you focus on your business.&#xD;
+ &lt;ul&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Traffic&lt;/strong&gt; - Get detailed reports on all your traffic channels and how they are performing&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Conversion&lt;/strong&gt; - Fully understand your users journey through your site and what makes them drop out or buy&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Order attribution&lt;/strong&gt; - Analyze single orders and customers to find ways to increase loyalty&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Cost&lt;/strong&gt; - Connect your marketing sources through our APIs to get full insights into your channels' spend, efficency and ROI&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
 &#xD;
-Divvit is made for eCommerce and available for all sizes. We base our insights on these four elements:&#xD;
+&lt;p&gt;You will get an instant performance overview from the insights dashboard. You can dig through drilldown reports for deeper discoveries and integrate any channels for cost benefit evaluation. Divvit will guide you all the way through and help you to focus your optimizations where needed.&lt;/p&gt;&#xD;
 &#xD;
-* Traffic - Get detailed reports on all your traffic channels and how they are performing&#xD;
-&#xD;
-* Conversion - Knowing your users journey through your site and what makes them drop out or buy is crucial&#xD;
-&#xD;
-* Order attribution - Analyze single orders and customers to find ways to increase loyalty&#xD;
-&#xD;
-* Cost - Connect your marketing sources through our APIs to get full insights into your channels spend, efficency and ROI&#xD;
-&#xD;
-You will get an instant performance overview from the insights dashboard. You can dig through drilldown reports for deeper discoveries and integrate all and any channels for cost benefit evaluation. Divvit will guide you all the way through and help you to focus your optimizations where needed.&#xD;
-&#xD;
-Go to the Divvit features site to get a full overview or sign up to test our demo account.</description>
-    <notes>First stable release</notes>
+&lt;p&gt;Go to the &lt;a href="https://www.divvit.com/features/"&gt;Divvit features site&lt;/a&gt; to get a full overview or sign up to &lt;a href="https://www.divvit.com/try-now/"&gt;test our demo account&lt;/a&gt;&lt;/p&gt;</description>
+    <notes>Tracking improvements for cart and order events.</notes>
     <authors><author><name>Nino Ulsamer</name><user>admin</user><email>nino@divvit.com</email></author></authors>
-    <date>2016-03-30</date>
-    <time>05:58:25</time>
-    <contents><target name="magecommunity"><dir name="Divvit"><dir name="Divvit"><dir name="Block"><file name="Cart.php" hash="a616134f2bdf0f956902dafa03b5557b"/><file name="Order.php" hash="ac4c535c1325afc8fb98f5db1733d352"/></dir><dir name="Helper"><file name="Data.php" hash="b47f88bb891e6aa9a419dbf16d831906"/></dir><dir name="Model"><file name="Observer.php" hash="b2677d9e40ed8ee00463dc425bb7cc07"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6838eb038a3d0522fc98a5789442efb4"/><file name="config.xml" hash="35f5657c1260e7a4d92bffdf2d11a362"/><file name="system.xml" hash="27f4a9b3e370b47980491526aea3a573"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="divvit_divvit.xml" hash="9eefcb81b5bce09118c3064b9e4260f4"/></dir><dir name="template"><dir name="divvit_divvit"><file name="basic.phtml" hash="19dc5da7a2183ad6b3a4ea20890423c3"/><file name="cart.phtml" hash="8f12745136e5589170d8fe1e389a13aa"/><file name="success.phtml" hash="73fabb83e9d10a81a909a97a50a4c848"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Divvit_Divvit.xml" hash="4d4ed33be83d293b7a157b700e7b712a"/></dir></target></contents>
+    <date>2016-08-18</date>
+    <time>06:19:10</time>
+    <contents><target name="magecommunity"><dir name="Divvit"><dir name="Divvit"><dir name="Block"><file name="Cart.php" hash="a616134f2bdf0f956902dafa03b5557b"/><file name="Order.php" hash="ac4c535c1325afc8fb98f5db1733d352"/></dir><dir name="Helper"><file name="Data.php" hash="4eac1a2bf3263415c7eadbd9b148e839"/></dir><dir name="Model"><file name="Observer.php" hash="f4dc4b9e42d8ab1a5fa0f72edcd1120f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6838eb038a3d0522fc98a5789442efb4"/><file name="config.xml" hash="3784aeefe68913fd9673ef0f02d6cea6"/><file name="system.xml" hash="27f4a9b3e370b47980491526aea3a573"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="divvit_divvit.xml" hash="794911943321e6fb50c5994d8033f3aa"/></dir><dir name="template"><dir name="divvit_divvit"><file name="basic.phtml" hash="d510d5d92faff176890b574b5f073349"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Divvit_Divvit.xml" hash="4d4ed33be83d293b7a157b700e7b712a"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.6.19</max></php></required></dependencies>
 </package>

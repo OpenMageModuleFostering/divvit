@@ -3,9 +3,7 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Proactive eCommerce Analytics!
-
-Divvit presents insights in beautifully designed dashboards, reveals KPI performance related to market standards and give automatic recommendations for optimizations.",
+    "description": "Divvit presents insights in beautiful dashboards, KPIs and recommendations to boost your shop's performance.",
     "authors": [
     {
         "name": "Nino Ulsamer",
