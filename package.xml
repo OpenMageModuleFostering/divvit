@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>divvit</name>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
@@ -20,12 +20,12 @@
 &#xD;
 &lt;p&gt;You will get an instant performance overview from the insights dashboard. You can dig through drilldown reports for deeper discoveries and integrate any channels for cost benefit evaluation. Divvit will guide you all the way through and help you to focus your optimizations where needed.&lt;/p&gt;&#xD;
 &#xD;
-&lt;p&gt;Go to the &lt;a href="https://www.divvit.com/features/"&gt;Divvit features site&lt;/a&gt; to get a full overview or sign up to &lt;a href="https://www.divvit.com/try-now/"&gt;test our demo account&lt;/a&gt;&lt;/p&gt;</description>
-    <notes>Tracking improvements for cart and order events.</notes>
+&lt;p&gt;Go to the &lt;a href="https://www.divvit.com/features/"&gt;Divvit features site&lt;/a&gt; to get a full overview or sign up to &lt;a href="https://www.divvit.com/signup"&gt;test our demo account&lt;/a&gt;&lt;/p&gt;</description>
+    <notes>Fix for the doubled orders bug.</notes>
     <authors><author><name>Nino Ulsamer</name><user>admin</user><email>nino@divvit.com</email></author></authors>
-    <date>2016-08-18</date>
-    <time>06:19:10</time>
-    <contents><target name="magecommunity"><dir name="Divvit"><dir name="Divvit"><dir name="Block"><file name="Cart.php" hash="a616134f2bdf0f956902dafa03b5557b"/><file name="Order.php" hash="ac4c535c1325afc8fb98f5db1733d352"/></dir><dir name="Helper"><file name="Data.php" hash="4eac1a2bf3263415c7eadbd9b148e839"/></dir><dir name="Model"><file name="Observer.php" hash="f4dc4b9e42d8ab1a5fa0f72edcd1120f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6838eb038a3d0522fc98a5789442efb4"/><file name="config.xml" hash="3784aeefe68913fd9673ef0f02d6cea6"/><file name="system.xml" hash="27f4a9b3e370b47980491526aea3a573"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="divvit_divvit.xml" hash="794911943321e6fb50c5994d8033f3aa"/></dir><dir name="template"><dir name="divvit_divvit"><file name="basic.phtml" hash="d510d5d92faff176890b574b5f073349"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Divvit_Divvit.xml" hash="4d4ed33be83d293b7a157b700e7b712a"/></dir></target></contents>
+    <date>2016-12-08</date>
+    <time>10:12:33</time>
+    <contents><target name="magecommunity"><dir name="."><file name="Divvit" hash=""/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="divvit_divvit.xml" hash=""/></dir><dir name="template"><dir name="divvit_divvit"><file name="basic.phtml" hash=""/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Divvit_Divvit.xml" hash=""/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.6.19</max></php></required></dependencies>
 </package>
