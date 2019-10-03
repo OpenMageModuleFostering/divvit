@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/divvit",
+    "name": "OpenMageModuleFostering\/divvit",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Divvit presents insights in beautiful dashboards, KPIs and recommendations to boost your shop's performance.",
     "authors": [
-    {
-        "name": "Nino Ulsamer",
-        "email": "nino@divvit.com"
-    }
-],
+        {
+            "name": "Nino Ulsamer",
+            "email": "nino@divvit.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
